@@ -11,4 +11,3 @@ echo "How is your day going $name"
 sleep 1
 
 echo "$name, I hope you learn something new today"
-
