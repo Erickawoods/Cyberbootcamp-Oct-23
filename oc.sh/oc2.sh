@@ -1,13 +1,12 @@
 # #!bin/bash
 # Declare a variable with as your name
 # Print to the screen Welcome to the Class Name(variable)
-
-echo "Welcome to the class $name"
+echo "What is your name?"
 
 read name
 
-echo "How is your day going $name"
-
+echo "Welcome to the class $name"
 sleep 1
-
-echo "$name, I hope you learn something new today"
+echo "How is your day going $name?"
+sleep 1
+echo "I hope you learn something new today"
