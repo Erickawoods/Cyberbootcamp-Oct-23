@@ -3,11 +3,8 @@
 # Have the script echo out what are current number is
 
 counter=0
-
-echo "Enter a number between 1 & 10"
-read $number
 until [ "$counter" -ge 10 ]; do
-        echo "Counter: $counter"
+        echo "Current number: $counter"
         ((counter++))
         done
 
