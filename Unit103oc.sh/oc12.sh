@@ -7,7 +7,7 @@
 echo -n "How is your day? Enter; Good, Bad, or Ok."
 read -r answer
 
-echo -n "My day is $answer"
+echo -n "Your day is $answer"
 
 case $answer in
 
