@@ -18,7 +18,7 @@ response = ""
 while response not in yes_no:
     response = input("Would you like to step into the enchanted forest?\nyes/no\n")
     if response == "yes":
-        print("You head into the forest. You hear Ewoks in the distance.\n")
+        print("You head into the enchanted forest. You hear Ewoks in the distance.\n")
     elif response == "no":
         print("You are not ready for this quest. Goodbye, " + name + ".")
         quit()
